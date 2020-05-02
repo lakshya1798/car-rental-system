@@ -1,0 +1,9 @@
+node_modules/
+dist/
+typings/
+build/
+.idea/
+*.log
+logs/
+public/
+../.idea/

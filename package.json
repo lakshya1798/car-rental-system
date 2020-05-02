@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "clean-dist": "rm -f -r -d dist",
+    "build": "yarn run clean-dist && tsc && yarn run tslint",
+    "start-dev": "yarn build && node dist/index.js",
+    "tslint": "tslint --project tsconfig.json",
+    "tslint-fix": "tslint --project tsconfig.json --fix"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "inversify": "^5.0.1",
+    "inversify-express-utils": "^6.3.2",
+    "lodash": "^4.17.15",
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^13.13.4",
+    "@types/node-fetch": "^2.5.7",
+    "@types/request": "^2.48.4"
+  }
+}
