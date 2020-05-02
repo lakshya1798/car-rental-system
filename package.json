@@ -2,15 +2,18 @@
   "scripts": {
     "clean-dist": "rm -f -r -d dist",
     "build": "yarn run clean-dist && tsc && yarn run tslint",
-    "start-dev": "yarn build && node dist/index.js",
+    "start-dev": "yarn build && node dist/app.js",
     "tslint": "tslint --project tsconfig.json",
     "tslint-fix": "tslint --project tsconfig.json --fix"
   },
   "dependencies": {
+    "@types/mongoose": "^5.7.14",
     "express": "^4.17.1",
     "inversify": "^5.0.1",
     "inversify-express-utils": "^6.3.2",
     "lodash": "^4.17.15",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.11",
     "tslint": "^6.1.2",
     "typescript": "^3.8.3"
   },

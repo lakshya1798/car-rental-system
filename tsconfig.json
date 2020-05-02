@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
+    /* Basic Options */
+    "target": "es5",
     "module": "commonjs",
-    "target": "es6",
     "outDir": "./dist",
-    "experimentalDecorators": true,
-    "declaration": false
-  },
-  "include": [
-    "src/**/*",
-    "index.ts"
-  ]
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "esModuleInterop": true,
+    /* Source Map Options */
+    "sourceRoot": "./src",
+    "inlineSourceMap": true,
+    "experimentalDecorators": true
+  }
 }
