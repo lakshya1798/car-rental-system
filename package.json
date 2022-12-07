@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "@types/mongoose": "^5.7.14",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "inversify": "^5.0.1",
-    "inversify-express-utils": "^6.3.2",
+    "inversify-express-utils": "^6.4.3",
     "lodash": "^4.17.15",
     "mongodb": "^3.5.7",
     "mongoose": "^5.9.11",
